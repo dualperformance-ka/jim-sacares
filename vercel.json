@@ -1,9 +1,5 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    { "source": "/", "destination": "https://dualperformance.au", "permanent": false }
-  ],
   "headers": [
     { "source": "/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" } ] }
   ]
